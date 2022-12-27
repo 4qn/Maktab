@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.edu.maktab.login.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_BookListFragment"
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/LoginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_RegisterFragment"
+            app:destination="@id/RegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.edu.maktab.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_BookListFragment"
+            app:destination="@id/BookListFragment" />
+        <action
+            android:id="@+id/action_addBookFragment"
+            app:destination="@id/addBookFragment" />
+        <action
+            android:id="@+id/action_pdfFileListFragment"
+            app:destination="@id/pdfFileListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/RegisterFragment"
+        android:name="com.edu.maktab.login.RegisterFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_BookListFragment"
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/LoginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/BookListFragment"
+        android:name="com.edu.maktab.book.BookListFragment"
+        android:label="@string/book_list"
+        tools:layout="@layout/fragment_book_list">
+        <argument
+            android:name="type"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_addBookFragment"
+            app:destination="@id/addBookFragment" />
+        <action
+            android:id="@+id/action_LoginFragment"
+            app:destination="@id/LoginFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/BookListFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_bookDetailFragment"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addBookFragment"
+        android:name="com.edu.maktab.book.AddBookFragment"
+        android:label="add_book_fragment"
+        tools:layout="@layout/add_book_fragment">
+        <argument
+            android:name="book"
+            android:defaultValue="@null"
+            app:argType="com.edu.maktab.model.Book"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.edu.maktab.book.BookDetailFragment"
+        android:label="fragment_book_detail"
+        tools:layout="@layout/fragment_book_detail">
+        <argument
+            android:name="book"
+            android:defaultValue="@null"
+            app:argType="com.edu.maktab.model.Book"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_bookDetailFragment_to_addBookFragment"
+            app:destination="@id/addBookFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/bookDetailFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfFileListFragment"
+        android:name="com.edu.maktab.pdf.PdfFileListFragment"
+        android:label="fragment_pdf_file_list"
+        tools:layout="@layout/fragment_pdf_file_list" />
+</navigation>

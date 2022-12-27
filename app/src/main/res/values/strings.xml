@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="app_header">لائبریری</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="cont_desc" translatable="false">content</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="add_book">Add Book</string>
+    <string name="book_name">Book Name*</string>
+    <string name="rack">Rack*</string>
+    <string name="book_number">Book number*</string>
+    <string name="language">Language *</string>
+    <string name="author">Author*</string>
+    <string name="book_topic">Book Topic*</string>
+    <string name="action_search">Search</string>
+    <string name="action_logout">Logout</string>
+    <string name="search">Search here</string>
+    <string name="msg_add_book">Tap of the to add Books</string>
+    <string name="publisher">Publisher</string>
+    <string name="pages">Pages</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="book_list">Book List</string>
+    <string name="msg_book_added">Book Added</string>
+    <string name="msg_try_again">Try Again</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="updated_succ">Updated Successfully</string>
+    <string name="account_login_text">Already have an Account! Login</string>
+    <string name="account_register_text">Don\'t Have account! Register</string>
+    <string name="register">Register</string>
+    <string name="export">Export</string>
+    <string name="library_name">\" Enter library Name\"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maktab">Maktab</string>
+    <string name="file_exist">File Name Already exist</string>
+
+</resources>

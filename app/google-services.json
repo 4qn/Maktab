@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537424680150",
+    "firebase_url": "https://maktab-lib-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "maktab-lib",
+    "storage_bucket": "maktab-lib.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537424680150:android:66096180de98fd31946577",
+        "android_client_info": {
+          "package_name": "com.edu.maktab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537424680150-d4k15kvg9al7u060o0cb7qvadiko3vmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edu.maktab",
+            "certificate_hash": "7b586d004da26658dcef99a068d011302014f95b"
+          }
+        },
+        {
+          "client_id": "537424680150-j6ar9a4jg4tdg16pubkce44gnjs3n7qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsN1jhkG9iGkdKLW52EkXjYW0vXlF8ABY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537424680150-j6ar9a4jg4tdg16pubkce44gnjs3n7qh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لائبریری</string>
+    <string name="app_header">لائبریری</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="cont_desc">content</string>
+    <string name="login">لاگ ان کریں</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="email">ای میل</string>
+    <string name="add_book">کتاب شامل کریں</string>
+    <string name="book_name">کتاب کا نام*</string>
+    <string name="rack">کتاب کی جگہ*</string>
+    <string name="book_number">کتاب نمبر*</string>
+    <string name="language">زبان *</string>
+    <string name="author">مصنف*</string>
+    <string name="book_topic">موضوع*</string>
+    <string name="action_search">تلاش کریں</string>
+    <string name="action_logout">Logout</string>
+    <string name="search">یہاں تلاش کریں</string>
+    <string name="msg_add_book">کتابیں شامل کرنے کیلئے ٹیپ کریں</string>
+    <string name="publisher">ناشر</string>
+    <string name="pages">صفحات</string>
+    <string name="price">قیمت</string>
+    <string name="description">تفصیل</string>
+    <string name="book_list">Book List</string>
+    <string name="msg_book_added">کتاب شامل ہوئی</string>
+    <string name="msg_try_again">دوبارہ کوشش کریں</string>
+    <string name="delete">حذف کریں</string>
+    <string name="edit">ترمیم</string>
+    <string name="update">اپ ڈیٹ</string>
+    <string name="updated_succ">کامیابی کے ساتھ اپ ڈیٹ ہوا</string>
+    <string name="account_login_text">Already have an Account! Login</string>
+    <string name="account_register_text">Don\'t Have account! Register</string>
+    <string name="register">رجسٹر کریں</string>
+    <string name="export">رپورٹ</string>
+    <string name="library_name">\" لائبریری کا نام درج کریں\"</string>
+    <string name="maktab">مکتب</string>
+    <string name="file_exist">فائل کا نام پہلے سے موجود ہے۔</string>
+</resources>
